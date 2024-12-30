@@ -1,0 +1,521 @@
+@media (max-width: 1920px) {}
+
+@media (max-width: 1680px) {
+  .container {
+    max-width: 1450px;
+  }
+
+  html {
+    font-size: 53%;
+  }
+
+}
+
+/*** ==================<<<<<>>>>>================== ***/
+
+@media (max-width: 1440px) {
+  .container {
+    max-width: 1340px;
+  }
+
+  html {
+    font-size: 47%;
+  }
+  .cmn_hdr h5 {
+    font-size: 2.2rem;
+    line-height: 1.8;
+  }
+  .srvce_inn {
+    justify-content: space-between;
+  }
+  .bnr_cnt {
+    margin-left: 13%;
+  }
+  h1 {
+    font-size: 10.667rem;
+  }
+  .cmn_hdr h2 {
+    font-size: 10rem;
+  }
+  .srv_l {
+    width: 27%;
+  }
+  .srv_r{
+    width: 27%;
+  }
+}
+
+/*** ==================<<<<<>>>>>================== ***/
+
+@media (max-width: 1366px) {
+  .container {
+    max-width: 1240px;
+  }
+  header .cus_nav_innr {
+    justify-content: space-between;
+  }
+  .bnr_cnt {
+    margin-left: 0;
+  }
+  .navbar-expand-md .navbar-nav .nav-link {
+    font-weight: 500;
+    font-size: 18px;
+  }
+  .ftrt h3 {
+    padding: 10px 0;
+    font-size: 3rem;
+  }
+  .ftr_icns a {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+  }
+  .ftr_m h3 {
+    font-size: 3.6rem;
+  }
+}
+
+/*** ==================<<<<<>>>>>================== ***/
+
+@media (max-width: 1280px) {
+  .container {
+    max-width: 1140px;
+    padding: 0 20px;
+  }
+
+  html {
+    font-size: 42%;
+  }
+  .prtflo_sec::after { 
+    width: 100%;  
+    height: 100%;  
+  }
+}
+
+/*** ==================<<<<<>>>>>================== ***/
+
+@media (max-width: 1199px) {
+  .container {
+    max-width: 100%;
+  }
+  .abt_rgt .cmn_hdr {
+    width: 75%;
+  }
+  .prtflo_sec::after {
+   display: none;
+  }
+}
+
+/*** ==================<<<<<>>>>>================== ***/
+
+@media (max-width: 1080px) {
+  .cmn_hdr p {
+    font-size: 15px;
+  }
+  .cmn_btn {
+    font-size: 15px;
+  }
+  .ftr_inner {
+    margin-top: 5%;
+  }
+  .ft_t {
+    width: 93%;
+  }
+}
+
+/*** ==================<<<<<>>>>>================== ***/
+
+@media (max-width: 1024px) {}
+
+/*** ==================<<<<<>>>>>================== ***/
+
+@media (max-width: 991px) {}
+
+/*** ==================<<<<<>>>>>================== ***/
+
+@media (max-width: 900px) {
+  .cmn_pdding {
+    padding: 5rem 0;
+  }
+  .cnt_txt {
+    left: 10%;
+  }
+}
+
+/*** ==================<<<<<>>>>>================== ***/
+
+@media (max-width: 840px) {
+  .srv_l {
+    width: 34%;
+  }
+  .srv_r {
+    width: 34%;
+    text-align: right;
+  }
+  .srve_img {
+    height: 90%;
+    width: 25%;
+  }
+  .abt_innr {
+    flex-direction: column;
+  }
+  .abt_lft {
+    width: 100%;
+  }
+  .abt_rgt {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 50px 0;
+  }
+  .prt_sldr .swiper-pagination {
+    margin-bottom: 0;
+  }
+  .cntct_sec::before {
+    display: none;
+  }
+  .ftr_icns a {
+    width: 35px;
+    height: 35px;
+    font-size: 17px;
+  }
+  .cmn_pdding {
+    padding: 50px 0;
+  }
+  .ftr_l, .ftr_m, .ftr_r {
+    width: 90%;
+    margin-inline: auto;
+    text-align: center !important;
+  
+}
+.ftrt {
+  margin-bottom: 20px;
+}
+  .ft_t {
+    width: 93%;
+    margin-top: 10px;
+  }
+.ftr_logo {
+  width: max-content;
+  margin: auto;
+}
+.ftr_inner {
+  flex-direction: column;
+  gap: 30px;
+}
+footer .cmn_pdding{
+  padding-bottom: 20px;
+}
+.section-background {
+  background-size: 80% auto;
+}
+}
+
+/*** ==================<<<<<>>>>>================== ***/
+
+@media (max-width: 768px) {
+.logo_area{
+  width: 140px;
+}
+.navbar-expand-md .navbar-nav .nav-link {
+  font-size: 16px;
+}
+h1 br{
+  display: none;
+}
+.bnr_cnt {
+  width: 48%;
+  margin-top: 10px;
+}
+.al_ovrl h3 {
+  font-size: 22px;
+}
+.abt_rgt .cmn_hdr {
+  width: 90%;
+}
+}
+
+/*** ==================<<<<<>>>>>================== ***/
+
+@media (max-width: 767px) {
+
+  /* Responsive NavBar */
+
+  header .navbar {
+    position: static;
+  }
+
+  header .navbar-toggler {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    border: none;
+  }
+
+  header .navbar-toggler:focus {
+    box-shadow: none;
+    outline: none;
+    border: none;
+  }
+
+  .MenuBar {
+    font-size: 20px;
+    display: inline-block;
+    fill: #282ac4;
+  }
+
+  header .navbar-collapse {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    background: #4a4b7c;
+    text-align: center;
+    color: #fff;
+  }
+  .nav-item.active a {
+  color: #fff;
+  text-decoration: underline;
+}
+.nav-item a {
+  color: #fff;
+}
+.nav-item a:hover{
+  text-decoration: underline;
+
+}
+  header .navMenus {
+    padding: 20px 0;
+  }
+
+  /* Responsive NavBar End*/
+  .srvce_inn {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .srv_l {
+    width: 38%;
+    margin-right: auto;
+  }
+  .srv_r {
+    width: 36%;
+    text-align: right;
+    margin-left: auto;
+  }
+  .services.cmn_pdding{
+    padding-bottom: 0;
+  }
+  .prt_sldr {
+    margin: 50px 0 auto auto;
+    width: 85%;
+  }
+}
+
+/*** ==================<<<<<>>>>>================== ***/
+
+@media (max-width: 667px) {
+  .srve_img {
+    height: 90%;
+    width: 48%;
+    left: auto;
+    right: 0;
+    transform: unset;
+    top: 20px;
+  }
+  .srv_r {
+    text-align: left;
+    margin-left: 0;
+    margin-right: auto;
+    width: 46%;
+  }
+  .srv_l {
+    width: 46%;
+  }
+  .cmn_hdr h2 {
+    font-size: 8rem;
+  }
+  .cntct_sec .cmn_hdr h2 br{
+    display: none;
+  }
+  .ftr p, .ft_t p {
+    font-size: 13px;
+  }
+  .ftrt h3 {
+    padding: 0;
+    font-size: 19px;
+  }
+  .ftr_m h3 {
+    font-size: 23px;
+  }
+  .services.cmn_pdding {
+    padding-top: 0;
+  }
+}
+
+/*** ==================<<<<<>>>>>================== ***/
+
+@media (max-width: 600px) {
+  .srv_l {
+    width: 50%;
+  }
+}
+
+/*** ==================<<<<<>>>>>================== ***/
+
+@media (max-width: 575px) {
+  .section-background {
+    background-size: 80% 63%;
+    background-position: center 17%;
+  }
+  .abt_rgt .cmn_hdr {
+    width: 98%;
+  }
+  .cmn_hdr p {
+    font-size: 13px;
+  }
+  .abt_rgt {
+    padding: 20px 0;
+  }
+  .srv_l .div, .srv_r .div {
+    margin-bottom: 15px;
+  }
+  .cntct_sec .cmn_hdr h2 {
+    font-size: 50px;
+  }
+  .cnt_txt {
+    top: 33%;
+  }
+  .cntct_sec{
+    background: url(../images/cntct_n.png) no-repeat !important;
+    height: 660px !important;
+  }
+  .ftr_icns a {
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+  }
+  .ftrt h5 {
+    font-size: 18px;
+  }
+  .ft_t {
+    width: 100%;
+  }
+  .banner{
+    position: relative;
+  }
+  .bnr_cnt {
+    width: 80%;
+    position: absolute;
+    border: 20px;
+    bottom: 18%;
+  }
+  .bnr_btn{
+margin: 20px  0;
+  }
+  h1 {
+    font-size: 60px;
+  }
+  .section-background {
+    background-attachment: unset;
+  }
+}
+
+/*** ==================<<<<<>>>>>================== ***/
+
+@media (max-width: 480px) {
+  h1 br{
+    display: none;
+  }
+  .srv_l,
+  .srv_r {
+    width: 64%;
+  }
+  .cmn_hdr h5 br{
+    display: none;
+  }
+  .cmn_hdr h2 {
+    font-size: 45px;
+  }
+  .cmn_hdr h5 {
+    font-size: 14px;
+  }
+  .cnt_txt {
+    top: 21%;
+  }
+  .btm_ftr {
+    flex-direction: column;
+    text-align: center;
+  } 
+  .section-about.parallax1{
+    background-size: cover;
+
+  }
+}
+
+/*** ==================<<<<<>>>>>================== ***/
+
+@media (max-width: 430px) {
+  .bnr_cnt {
+    width: 80%;
+    margin-top: -20px;
+  }
+  .srv_l, .srv_r {
+    width: 75%;
+  }
+  .srve_img {
+    width: 35%;
+  }
+  .cmn_hdr h2 {
+    font-size: 35px;
+  }
+  .cmn_hdr h5 {
+    font-size: 13px;
+  }
+  .ftrt h5 {
+    font-size: 16px;
+  }
+  .ftr_m h3 {
+    font-size: 18px;
+  }
+  .ftr_inner {
+    gap: 15px;
+  }
+  .ftrt h3 {
+    font-size: 16px;
+  }
+  .ft_t {
+    margin: 20px 0 30px;
+  }
+  .srv_l .div h4, .srv_r .div h4 {
+    font-size: 18px;
+  }
+  .ftr_icns {
+    gap: 10px;
+  }
+}
+
+/*** ==================<<<<<>>>>>================== ***/
+
+@media (max-width: 390px) {
+  .bnr_cnt {
+    bottom: 1%;
+  }
+}
+
+/*** ==================<<<<<>>>>>================== ***/
+
+@media (max-width: 375px) {
+  h1 {
+    font-size: 53px;
+  }
+  .cnt_txt {
+    left: 7%;
+  }
+}
+
+/*** ==================<<<<<>>>>>================== ***/
+
+@media (max-width: 360px) {}
+
+/*** ==================<<<<<>>>>>================== ***/
